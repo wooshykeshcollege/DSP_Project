@@ -21,7 +21,7 @@ if __name__ == "__main__":
     file_names = glob('*')
     os.chdir("..")
     keep=float(input(("\nWhat % of the fourier coefficients do you want to keep?: ")))
-    compressed_mat=[]
+    
     for i in range(len(file_names)):
         os.chdir("input")
         print("----Compressing:   "+file_names[i])
